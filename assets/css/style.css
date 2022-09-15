@@ -1,8 +1,8 @@
 :root {
     /* Uncomment the code below and change the color scheme if desired https://www.w3schools.com/css/css3_variables.asp */
-    /* --primary: rgba(43, 91, 186, 0.6);
+    --primary: rgba(43, 91, 186, 0.6);
     --light: rgb(255,255,255);
-    --greyish: rgb(116 121 129 / 80%); */
+    --greyish: rgb(116 121 129 / 80%);
 }
 
 html, body {
@@ -15,11 +15,11 @@ body {
 }
 
 a {
-    color: var(--light) !important;
+    color: rgb(255,255,255) !important;
 }
 
 .custom-resume {
-    background-color:var(--light);
+    background-color:rgb(255,255,255);
 }
 
 .custom-resume > div {
@@ -35,14 +35,14 @@ a {
 }
 
 .custom-text-cont h5 {
-    color: var(--primary) !important;
+    color: rgba(43, 91, 186, 0.6) !important;
 }
 
 .custom-text-cont i {
-    border: 1px solid var(--primary);
+    border: 1px solid rgba(43, 91, 186, 0.6);
     border-radius: 50%;
-    background-color: var(--primary);
-    color: var(--light);
+    background-color: rgba(43, 91, 186, 0.6);
+    color: rgb(255,255,255);
 }
 
 .custom-profile > * {

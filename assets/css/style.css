@@ -54,7 +54,7 @@ a {
 }
 
 .custom-profile > :last-child {
-    background-color: rgba(68, 106, 182, .5);
+    background-color: rgba(68, 182, 104, 0.5);
 }
 
 .custom-city {
